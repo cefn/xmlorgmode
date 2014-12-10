@@ -3,7 +3,7 @@ import os
 from PyQt4.QtCore import QObject,pyqtSlot,pyqtSignal,QUrl
 from PyQt4.QtGui import QApplication
 from PyQt4.QtWebKit import QWebView
-from PyQt4.QtXmlPatterns import QXMLQuery
+from PyQt4.QtXmlPatterns import QXmlQuery
 
 from watchdog.observers import Observer 
 from watchdog.events import FileSystemEvent,FileSystemEventHandler
